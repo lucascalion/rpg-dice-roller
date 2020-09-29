@@ -54,7 +54,7 @@ export default [
     },
     plugins: plugins(false, production),
     // indicate which modules should be treated as external
-    external: ['mathjs'],
+    external: ['mathjs', 'random-js'],
   },
   // UMD
   {
